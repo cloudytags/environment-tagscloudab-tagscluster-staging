@@ -7,7 +7,7 @@ dependencies:
   version: 2.3.89
   repository: http://chartmuseum.jenkins-x.io
   alias: cleanup
-  - name: mavenqs
+- name: mavenqs
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
 - name: pa-emailchat
