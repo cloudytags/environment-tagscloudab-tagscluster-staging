@@ -13,9 +13,9 @@ expose:
   - --v
   - 4
   config:
-    domain: 34.93.128.238.nip.io
+    domain: tagscloud.org
     exposer: Ingress
-    http: "true"
+    http: "false"
     tlsacme: "true"
 jenkins:
   Servers:
