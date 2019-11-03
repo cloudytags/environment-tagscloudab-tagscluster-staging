@@ -15,8 +15,9 @@ expose:
   config:
     domain: tagscloud.org
     exposer: Ingress
-    http: "false"
-    tlsacme: "true"
+    http: "true"
+    tlsacme: "false"
+    urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
 jenkins:
   Servers:
     Global: {}
